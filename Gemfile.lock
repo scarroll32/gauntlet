@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    daemons (1.2.6)
+    eventmachine (1.2.5)
+    rack (2.0.4)
+    thin (1.7.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    unified-assets (0.0.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  thin
+  unified-assets
+
+BUNDLED WITH
+   1.16.0
